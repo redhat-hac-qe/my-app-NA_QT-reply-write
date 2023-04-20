@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: nodejs-ex-lgvi
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/hacdev/user1-tenant/my-app/nodejs-ex-lgvi@sha256:4d4f0a8fc5ced20d639d20caa7ddb89f4a6dcb06d50e0fc1ce41c146aacb4a76
         name: my-nodejs
         ports:
         - containerPort: 3001
